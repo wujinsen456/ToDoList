@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    width: 100%;
+    height: 50px;
+    background: #323232;
+    line-height: 50px;
+}
+header .box{
+    width: 600px;
+    height: 50px;
+    margin: 0 auto;
+    /*background: #fff;*/
+}
+header .box h2{
+    float: left;
+    color: #DDD;
+    font-size: 24px;
+    cursor: pointer;
+    font-weight: normal;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+header .box input{
+    width: 360px;
+    height: 24px;
+    float: right;
+    margin-top: 10px;
+    border-radius: 5px;
+    text-indent: 1em;
+    outline: none;
+}
+section{
+    width: 100%;
+    height: 600px;
+    background: #CDCDCD;
+}
+section main{
+    width: 600px;
+    height: auto;
+    margin: 0 auto;
+}
+section main .head{
+    width: auto;
+    height: 32px;
+    padding: 20px 0;
+    /*background: red;*/
+    line-height: 32px;
+}
+section main .head h2{
+    float: left;
+}
+section main .head .num{
+    width: auto;
+    height: 20px;
+    background: #E6E6FA;
+    border-radius: 20px;
+    line-height: 22px;
+    text-align: center;
+    color: #666;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 0 5px;
+    float: right;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+section main .content{
+    width: auto;
+    height: 32px;
+    border-left: 5px solid #2196f3;
+    border-radius:5px;
+    background: #fff;
+    margin-top: 10px;
+}
+section main .content1{
+    border-left: 5px solid #7a8c90;
+    opacity: 0.6;
+}
+section main .content input{
+    width: 22px;
+    height: 22px;
+    margin: 5px 10px;
+    float: left;
+}
+section main .content .input{
+    width: 50px;
+    height: 22px;
+    margin: 5px 10px;
+    float: left;
+}
+section main .content p{
+    width: 505px;
+    height: 32px;
+    float: left;
+    line-height: 32px;
+    font-size: 14px;
+}
+section main .content .del{
+    width: 24px;
+    height: 22px;
+    box-sizing: border-box;
+    float: right;
+    margin-top: 5px;
+    margin-right: 10px;
+    border-radius: 50%;
+    border: 2px solid #4b4c46;
+}
+section main .content .del::before{
+    content: '-';
+    color: #fff;
+    line-height: 14px;
+    text-align: center;
+
+    font-weight: bold;
+    width: 14px;
+    height: 12px;
+    border-radius: 50%;
+    background: #4b4c46;
+    float: left;
+    margin: 3px 3.5px ;
+}
